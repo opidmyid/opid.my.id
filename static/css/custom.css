@@ -523,3 +523,7 @@ body {
 ol#menu li {
   display:inline;
 }
+
+.ten {
+    width: 10.4% !important;
+}
