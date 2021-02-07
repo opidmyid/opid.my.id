@@ -1,0 +1,81 @@
+baseurl = "https://opid.my.id"
+languageCode = "id"
+defaultContentLanguage = "id"
+title = "opid.my.id"
+theme = "dream"
+paginate = "12"
+
+# copyright = ""
+
+googleAnalytics = "UA-184792106-1"
+
+# disqusShortname = "onepiece-id"
+
+enableRobotsTXT = true
+
+[params]
+  # background = "black"
+  # backgroundImage = "/img/dark.webp"
+  # linkColor = "black"
+
+  author = "Onepiece ID"
+  description = "Tempat Download Anime One Piece Subtitle Indonesia"
+  avatar = "/img/avatar.webp"
+  # motto = "Motto"
+  # categoriesLimitInHeader = 0
+  headerBottomText = "Video One Piece disini bersumber dari oploverz.in"
+
+  rss = true
+
+  # utterancesRepo = ""
+
+  # valine = true
+  # LEANCLOUD_APP_ID = ""
+  # LEANCLOUD_APP_KEY = ""
+
+  email = "admin@opid.my.id"
+  # twitter = ""
+  # facebook = ""
+  # instagram = ""
+  # mastodon = ""
+  # linkedin = ""
+  github = "opidmyid"
+  # stackoverflow = ""
+  # codepen = ""
+
+  siteStartYear = 2020
+
+  favicon = "/favicon.ico"
+
+  # highlightjs = true
+  # highlightjsCDN = "https://cdn.jsdelivr.net/gh/highlightjs/cdn-release/build/highlight.min.js"
+  # highlightjsExtraLanguages = ["ocaml"]
+  # highlightjsTheme = "gruvbox-light"
+  # highlightjsThemeDark = "gruvbox-dark"
+
+  # search
+  enableSearch = true
+
+  # options
+  # showSummaryCoverInPost = true
+  # hasTwitterEmbed = true
+
+  # dark mode
+  backgroundDark = "black"
+  # darkLinkColor = "white"
+  darkNav = true
+  dark404 = true
+
+[permalinks]
+    posts =  "/:title/"
+
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+

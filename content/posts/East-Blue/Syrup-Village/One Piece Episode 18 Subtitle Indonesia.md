@@ -1,0 +1,35 @@
+---
+title: "One Piece Episode 18 Subtitle Indonesia"
+date: 2019-07-24T17:46:38+07:00
+cover: "https://cdn.opid.my.id/images/arc/east-blue/syrup-village.webp" # Optional, cover
+author: Onepiece ID
+# authorlink: https://opid.my.id
+categories:
+  - "Syrup Village"
+tags:
+  - "East Blue"
+---
+<div class="ui menu violet borderless inverted">
+  <div class="header item active">
+        Stream:
+    </div>
+  <a class="active item" data-tab="google">
+    <i class="google drive icon"></i> Google
+  </a>
+  <a class="item nounderline" data-tab="mirror">
+    <i class="odnoklassniki icon"></i> Mirror
+  </a>
+</div>
+<div class="ui bottom attached tab segment active" style="border:0 !important;" data-tab="google">
+  {{< iframe link="https://www.blogger.com/video.g?token=AD6v5dxdVuGbv3CKXq-5Tga1917GmEK8ErB-SFYWO682RlWPgFiHcqFII6PHTGEsAnPFntOcnNTVhrFZMfhoe5aEIfdr6uowmLH5zlospOSzQAHn5NHUmYHtOsVm84VESnn1bkt1AE4v" >}}
+</div>
+<div class="ui bottom attached tab segment" style="border:0 !important;" data-tab="mirror">
+  {{< iframe link="https://ok.ru/videoembed/2151989775094" >}}
+</div>
+<div class="ui menu violet borderless inverted">
+  <div class="header item active">
+        Downloads:
+    </div>
+  <a class="item nounderline" href="https://ouo.io/RI56tJ" target="_blank" rel="dofollow"><i class="google drive icon"></i>
+    Average 480p</a>
+</div>

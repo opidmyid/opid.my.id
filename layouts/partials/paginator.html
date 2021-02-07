@@ -1,0 +1,11 @@
+{{ if .paginator.HasPrev }}
+      <a style="color:#fff !important;" class="column ui violet button borderless pag" href="{{ .paginator.Prev.URL }}" title="{{ i18n "prevPage" }}">
+        {{ i18n "prevPage" }}
+      </a>
+{{ end }}
+
+{{ if .paginator.HasNext }}
+      <a style="color:#fff !important;" class="column ui violet button borderless pag" href="{{ .paginator.Next.URL }}" title="{{ i18n "nextPage" }}">
+        {{ i18n "nextPage" }}
+      </a>
+{{ end }}

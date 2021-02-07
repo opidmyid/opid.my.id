@@ -1,0 +1,24 @@
+{{ define "main"}}
+<div class="ui relaxed grid dream-grid">
+<!--   <div class="sixteen wide mobile eight wide tablet eight wide computer four wide large screen four wide widescreen column dream-column">
+    {{ partial "header.html" . }}
+  </div> -->
+
+  {{ $paginator := .Paginate (where .Site.RegularPages "Section" "!=" "about") }}
+  {{ range $paginator.Pages }}
+    <div class="sixteen wide mobile eight wide tablet eight wide computer four wide large screen four wide widescreen column dream-column">
+      {{ .Render "summary" }}
+    </div>
+  {{ end }}
+
+  <div class="four column centered row column dream-column pag">
+    {{ partial "paginator.html" (dict "paginator" $paginator "Site" .Site) }}
+  </div>
+</div><br/>
+{{ end }}
+
+{{ define "js" }}
+<script async src="{{ "/js/imagesloaded.pkgd.min.js" | relURL }}" as="scsript"></script>
+<!-- <script async src="{{ "/js/masonry.pkgd.min.js" | relURL }}" as="scsript"></script>
+<script async src="{{ "/js/grid.js" | relURL }}" as="scsript"></script> -->
+{{ end }}

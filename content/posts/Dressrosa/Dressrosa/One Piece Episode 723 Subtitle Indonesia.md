@@ -1,0 +1,34 @@
+---
+title: "One Piece Episode 723 Subtitle Indonesia"
+date: 2019-08-20T21:15:38+07:00
+cover: "https://cdn.opid.my.id/images/arc/dressrosa/dressrosa.webp" # Optional, cover
+# authorlink: https://opid.my.id
+categories:
+  - "Dressrosa"
+tags:
+  - "Dressrosa"
+---
+<div class="ui menu violet borderless inverted">
+  <div class="header item active">
+        Stream:
+    </div>
+  <a class="active item" data-tab="google">
+    <i class="google drive icon"></i> Google
+  </a>
+  <a class="item nounderline" data-tab="mirror">
+    <i class="odnoklassniki icon"></i> Mirror
+  </a>
+</div>
+<div class="ui bottom attached tab segment active" style="border:0 !important;" data-tab="google">
+{{< iframe link="https://www.blogger.com/video.g?token=AD6v5dz-JukZ0IL9ck-ERH_XGONvkjG_OPoIQh-ZQ7cRvKv20erHB0_0nokuyGpRYrHWxhjt3YFAWOogwc9979VlCtjXasumshZL5CDDJy0msmUyZsgV2R_Q7cQuzoKJjg2-ZNeJaDs" >}}
+</div>
+<div class="ui bottom attached tab segment" style="border:0 !important;" data-tab="mirror">
+{{< iframe link="https://ok.ru/videoembed/2176310643446" >}}
+</div>
+<div class="ui menu violet borderless inverted">
+  <div class="header item active">
+        Downloads:
+    </div>
+  <a class="item nounderline" href="https://ouo.io/OXGtTr" target="_blank" rel="dofollow"><i class="google drive icon"></i>
+    Average 480p</a>
+</div>
