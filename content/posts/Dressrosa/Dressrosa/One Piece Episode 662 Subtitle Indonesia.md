@@ -13,7 +13,7 @@ tags:
         Stream:
     </div>
   <a class="active item" data-tab="google">
-    <i class="google drive icon"></i> Google
+    <i class="google drive icon"></i> Google 
   </a>
   <a class="item nounderline" data-tab="mirror">
     <i class="odnoklassniki icon"></i> Mirror
